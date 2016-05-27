@@ -27,7 +27,7 @@ for i=1:length(modelList)
     X(:, i) = modelList{i}(mu);
 end
 % assign costs (replace with actual time measurements)
-w = [100, 50, 20, 10, 5]'; %logspace(1, -length(modelList), length(modelList))';
+w = [100, 50, 20, 10, 5]';
 
 %% generate optimal ordering of models
 [bestSet, bestV, vMC] = optimalOrderCorr(X, w);
