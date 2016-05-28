@@ -2,7 +2,7 @@
 % See COPYRIGHT for license information 
 %
 function [ y ] = shortcolROM03( param )
-%SHORTCOLROM Surrogate model of short column FOM
+%SHORTCOLROM03 Surrogate model of short column FOM
 % In
 %   param       ...     parameter vector
 % Out
@@ -15,5 +15,6 @@ M = param(:, 4);
 Y = param(:, 5);
 
 y = 1 - M./(b.*(h.^2).*Y) - (P./(b.*h.*Y)).^2;
+
 end
 

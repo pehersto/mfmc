@@ -2,7 +2,7 @@
 % See COPYRIGHT for license information 
 %
 function [ y ] = shortcolROM05( param )
-%SHORTCOLROM Surrogate model of short column FOM
+%SHORTCOLROM05 Surrogate model of short column FOM
 % In
 %   param       ...     parameter vector
 % Out

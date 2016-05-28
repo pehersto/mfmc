@@ -2,8 +2,11 @@
 % See COPYRIGHT for license information 
 %
 function [ y ] = shortcolFOM( param )
-%SHORTCOLFOM Summary of this function goes here
-%   Detailed explanation goes here
+%SHORTCOLFOM Short column FOM
+% In
+%   param       ...     parameter vector
+% Out
+%   y           ...     output
 
 b = param(:, 1);
 h = param(:, 2);
