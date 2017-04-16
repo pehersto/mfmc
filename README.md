@@ -2,7 +2,8 @@
 
 This code implements the Multifidelity Monte Carlo method as described in:
 
-* Peherstorfer, B., Willcox, K. and Gunzburger, M. [Optimal model management for multifidelity Monte Carlo estimation](http://web.mit.edu/pehersto/www/preprints/ACDLTR2015-02.pdf). Technical Report, Aerospace Computational Design Laboratory TR-15-2, 2015.
+* Peherstorfer, B., Willcox, K., and Gunzburger, M. [Optimal model management for multifidelity Monte Carlo estimation](https://pehersto.engr.wisc.edu/preprints/multi-fidelity-monte-carlo-peherstorfer-willcox-gunzburger.pdf).
+SIAM Journal on Scientific Computing, 38(5):A3163-A3194, 2016.
 
 Run the file `main.m` to generate example plots.
 
